@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BullsCows</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div id="leftBox">
+                <input type="number" id="input" placeholder="введите 4 цифры">
+                <div class="button">
+                    <button id="btn1">Сделать ход</button>
+                    <button id="btn2">Новая игра</button>
+                </div>
+                <div class="p">
+                    <p id="bullsSum">Быки: 0</p>
+                    <p id="cowsSum">Коровы: 0</p>
+                </div>
+                <div id="winString"></div>
+            </div>
+            <div class="history">
+                <p>Ваши попытки:</p>
+                <div id="listUser" class="list"></div>
+            </div>
+            <div class="history">
+                <p>Попытки компьютера:</p>
+                <div id="listComputer" class="list"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
